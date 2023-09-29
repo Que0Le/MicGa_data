@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "dbName": "stackoverflow.12345",
+    "description": "A test DB for stackoverflow",
+    "dbSource": "https://raw.githubusercontent.com/Que0Le/MicGa_data/main/stackoverflow.12345.json",
+    "onlineRecordUrlPrefix": "chupmu.org/stackoverflow.12345/userid=",
+    "urls": [
+      "https://stackoverflow.com/questions/"
+    ],
+    "tags": {
+      "0": {
+        "tagId": "0",
+        "description": "nice answer",
+        "tagname": "nice_answer"
+      },
+      "1": {
+        "tagId": "1",
+        "description": "good info",
+        "tagname": "good_info "
+      },
+      "2": {
+        "tagId": "2",
+        "description": "spammer",
+        "tagname": "spammer"
+      },
+      "3": {
+        "tagId": "3",
+        "description": "low quality",
+        "tagname": "low_quality"
+      }
+    }
+  },
+  "db": {
+    "1": { "userid": "150647", "tagIds": ["0"], "note": "Note for @diegueus9" },
+    "71866": { "userid": "617185", "tagIds": ["1"], "note": "Note for @'kmonsoor'" },
+    "42178": { "userid": "8176547", "tagIds": ["2", "3"], "note": "Note for @'jdh'" }
+  }
+}
